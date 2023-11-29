@@ -1,0 +1,117 @@
+/*style by CSS from page cobrasExpedicionarias*/
+
+@charset "UTF-8";
+
+.html {
+  	 display: block;
+  }
+
+  @media (max-width: 640px) {
+
+  .html {
+   display: none;
+  }
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background-image: url(images/cachoeira.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  margin: auto;
+}
+/*--------CABEÇALHO PRINCIPAL: FUNDO CAMUFLADO------------------*/
+header{
+  background-image: url(images/corCamuflagem.jpg);
+  background-size: 100%;
+  height: 160px;
+  width: 100%
+  position: absolute;
+  margin: 0px 0px;
+}
+
+/*--------DIVS DO CABEÇALHO PRINCIPAL---------------------------*/
+.container{
+  display: table;
+  min-height: 100px;
+  margin-top: 18px;
+}
+
+  #logo{
+    border-radius: 10px;
+    background: url(logo/cobraFumou.png);
+    background-size: 100%;
+    box-shadow: 8px 8px 8px black;
+    width: 164px;
+    height: 200px;
+    margin-left: 100px;
+    position: relative;
+    top: -20px
+
+  }
+
+    h1{
+      font-family: fantasy;
+      font-size: 60px;
+      color: orange;
+      text-shadow: 5px 5px 2px black;
+      text-align: left;
+      position: absolute;
+      margin-left: 300px;
+      margin-top: -195px;
+      width: 400px;
+    }
+
+/*---------------MENUS------------------------------------------*/
+#menu{
+  min-height: 30px;
+  position: absolute;
+  top: 250px;
+  margin-left: 4%;
+  width: auto;
+}
+
+  #menu a{
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0px 0px;
+    padding: 0px 14px;
+  }
+
+      #menu a:hover{
+        background-color: rgba(250, 250, 12, 0.5);
+      }
+
+/*-------------RODAPÉ-------------------------------------------*/
+#rodape{
+  background-image: url(images/corCamuflagem.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
+  margin: 0px 0px;
+
+
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  color: orange;
+  text-align: center;
+  text-shadow: 2px 2px 1px black;
+}
